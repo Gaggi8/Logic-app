@@ -2,7 +2,7 @@
 #  backend "azurerm" {
 #    resource_group_name  = "app-testing-rg"
 #    storage_account_name = "logicappstorage"
-#    container_name       = "logic_container"
+#    container_name       = "logiccontainer"
 #    key                  = "logic.terraform.tfstate"
 #  }
 #}
