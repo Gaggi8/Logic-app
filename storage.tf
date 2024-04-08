@@ -7,7 +7,7 @@ resource "azurerm_storage_account" "storage" {
 }
 
 resource "azurerm_storage_container" "app-container" {
-  name                  = "logic_container"
+  name                  = "logiccontainer"
   storage_account_name  = azurerm_storage_account.storage.name
   container_access_type = "private"
 }
